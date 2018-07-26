@@ -1,1 +1,15 @@
 /* stylesheet for tribute page */
+body {
+  margin: 60px;
+}
+header {
+  background-color: gray;
+  display: flex;
+}
+footer {
+  font-family: monospace;
+  font-size: 0.7em;
+}
+#quote {
+  font-family: Pacifico;
+}
