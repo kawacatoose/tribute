@@ -1,19 +1,21 @@
 /* stylesheet for tribute page */
 body {
   margin: 60px;
+  font-family: Arial, Helvetica, sans-serif;
 }
 header {
   background-color: gray;
   border-radius: 10px;
   padding: 10px;
-  display: flex;
-  justify-content: center;
-
 }
 img {
+  display: block;
   border-radius: 10px;
   margin: 10px;
-  width: auto;
+  max-width: 100%;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
 }
 footer {
   font-family: monospace;
@@ -21,4 +23,12 @@ footer {
 }
 #quote {
   font-family: Pacifico;
+  }
+#img-div {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+#img-caption {
+  width: 50%;
 }
