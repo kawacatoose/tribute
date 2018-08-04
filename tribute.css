@@ -18,16 +18,13 @@ body {
   padding: 1em;
   grid-column: 2 / 6;
   display: flex;
-  flex-wrap: wrap;
 }
 #photo {
   padding: 1em;
-  margin-left: auto;
-  margin-right: auto;
+  margin: auto;
 }
 #img-caption {
   padding: 1em;
-
 }
 #tribute-info {
   grid-column: 2 / 6;
